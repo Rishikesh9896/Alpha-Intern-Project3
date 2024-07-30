@@ -1,0 +1,795 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45, 19, 19);
+    height: 60px;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.right-nav-items a{
+    text-decoration: none;
+    color: burlywood;
+    background-color: rgb(45, 19, 19);
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.right-nav-items{
+    background-color: rgb(45, 19, 19);
+    display: flex;
+    align-items: center;
+}
+
+.right-nav-items i{
+    font-size: 22px;
+    color: burlywood;
+    background-color: rgb(45, 19, 19);
+}
+
+.left-nav-items {
+    padding: 10px;
+    background-color: rgb(45, 19, 19);
+}
+.left-nav-items h1{
+    font-size: 30px;
+    color: burlywood;
+    background-color: rgb(45, 19, 19);
+}
+
+.left-nav-items a{
+    text-decoration: none;
+}
+
+/* -------- Hero Section -------- */
+.section1{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+}
+
+.intro{
+    width: 80%;
+    height: 85vh;
+    position: relative;
+}
+
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(46, 3, 3);
+}
+
+.heading h3{
+    font-size: 150px;
+    text-shadow: 6px 2px 5px #332221, 0 0 5px #e1853e;
+}
+
+.heading p{
+    opacity: 0.7;
+    font-size: 32px;
+    font-style: italic;
+    text-shadow: 6px 2px 5px #332221, 0 0 5px #e1853e;
+}
+
+/* -------- ABout section  -------- */
+
+.section2{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(45, 19, 19);
+    position: relative; 
+}
+
+.about-info{
+    width: 90%;
+    height: 70vh;
+    border: 5px double burlywood;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+}
+
+/* --- TOP --- */
+.about-info-top{
+    width: 95%;
+    height: 10vh;
+    color: blanchedalmond;
+    padding: 0px 40px;
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-info-top h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.about-info-top p{
+    font-family:Calibri;
+}
+
+/* --- Middle --- */
+.about-info-middle{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-evenly;
+    color: blanchedalmond;
+}
+
+/* ---Middle left--- */
+.about-left{
+    width: 60%;
+    height: 50%;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.about-left h2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.about-left li, .about-left strong{
+    line-height: 22px;
+    margin-top: 2px;
+    font-family: Calibri;
+}
+
+/* ---Middle right--- */
+.about-right{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(images/cup_img.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid burlywood;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+/* --- Bottom --- */
+.about-info-bottom{
+    width: 95%;
+    height: 5vh;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 40px;
+    position:absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+}
+.about-info-bottom h3{
+    font-size: 20px;
+}
+
+/* -------- Menu items -------- */
+.section3{
+    background-image: url(images/coffee_beans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.menu-contents{
+    width: 90%;
+    height: 90vh;
+    border: 7px double burlywood;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    display: flex;
+}
+
+/* -------- Heading Top part -------- */
+.menu-heading{
+    width: 95%;
+    height: 11vh;
+    color: burlywood;
+    padding: 0px 40px;
+    position:absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-heading h2{
+    font-size: 70px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-shadow: 6px 2px 5px #332221, 0 0 5px #e1853e;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(46, 3, 3);
+}
+
+/* -------- Menu items div, Bottom part -------- */
+.menu-items{
+    width: 98%;
+    height: 70vh;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    color: rgb(45, 19, 19);
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px 5px;
+    justify-items: center;
+}
+
+/* -------- Each Items -------- */
+.item{
+    height: 235px;
+    width: 210px;
+    background-color:burlywood;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin-top: 10px;
+    box-shadow: 4px 4px rgb(150, 71, 52);
+}
+/* ----- Image ----- */
+.img-div{
+    width: 210px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #e1853e;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*  ----- Item name and price -----  */
+.item-detail, .quantity{
+    width: 210px;
+    height: auto;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-detail h3, .item-detail h4{
+    font-size: 18px;
+}
+
+.box-space{
+    width: 50px;
+    background-color: rgba(240, 248, 255, 0.196);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+/* ----- Buttons  ----- */
+.menu-option{
+    margin: 12px;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-btn1, .menu-btn2{
+    background-color: rgb(45, 19, 19);
+    color: bisque;
+    height: 25px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(243, 154, 132);
+    padding: 0px 6px;
+    min-width: 25px;
+    font-family:Calibri;
+}
+/* ----- Menu items Images ----- */
+.Ino1{
+    background-image: url(images/black_coffee.jpg);
+}
+
+.Ino2{
+    background-image: url(images/espresso.jpg);
+}
+
+.Ino3{
+    background-image: url(images/Latte.jpg);
+}
+
+.Ino4{
+    background-image: url(images/Cappuccino.jpg);
+}
+
+.Ino5{
+    background-image: url(images/Americano.jpg);
+}
+
+.Ino6{
+    background-image: url(images/Mocha.jpg);
+}
+
+.Ino7{
+    background-image: url(images/Iced\ Coffee.jpg);
+}
+
+.Ino8{
+    background-image: url(images/Macchiato.jpg);
+}
+
+.Ino9{
+    background-image: url(images/Doppio.jpg);
+}
+
+.Ino10{
+    background-image: url(images/Matcha\ Latte.jpg);
+}
+
+/* ------- Footer part, Contact Informantion ------- */
+.section4{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(45, 19, 19);
+    position: relative; 
+    padding: 30px 65px;
+    color: burlywood;
+}
+
+.contact-us-top{
+    width: auto;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 5px 5px;
+    align-content: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #e1853e;
+}
+/* ----- Footer image ----- */
+.img-icon{
+    width: 250px;
+    height: 250px;
+    background-image: url(images/footer_logo.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-right: 2px solid #e1853e;
+}
+
+/* ----- Footer details ----- */
+.contact-details a, .socials-pt a, .contact-us-bottom a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.socials-pt a{
+    padding-right: 10px;
+}
+
+.contact-us-top h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e1853e;
+}
+.contact-us-top p{
+    font-family: Calibri;
+}
+
+/* ----- Copy right info part ----- */
+.contact-us-bottom{
+    min-width: 80%;
+    height: 18%;
+    position:absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+    text-align: center;
+}
+
+/* ------ Adding Effects ------- */
+
+.right-nav-items a:hover {
+    font-size: 18px;
+    font-weight: bolder;
+    color: bisque;
+} 
+
+.right-nav-items i:hover {
+    font-size: 24px;
+    color: bisque;
+} 
+
+.contact-us-top h3:hover{
+    font-size: 21px;
+    color: bisque;
+}
+
+.socials-pt i:hover{
+    font-size: 18px;
+    color: bisque;
+}
+
+/* ----- Responsive feature ----- */
+@media(max-width:1230px){
+    .section3{
+        height: 130vh;
+        width: auto;
+    }
+    .menu-contents{
+        height:120vh;
+        align-content: center;
+    }
+    .menu-items{
+        top: 44%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
+        margin-left: 10px;
+    }
+    .contact-us-top{
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+    .img-icon{
+        grid-row: 1/3;;
+    }
+}
+
+@media(max-width:1030px){
+    .section1{
+        height: 65vh;
+    }
+    .intro{
+        width: 70%;
+        height: 65vh;
+    }
+    .about-info-top{
+        top: 12%;
+    }
+    .heading h3{
+        font-size: 100px;
+    }
+    .heading p{
+        font-size: 21px;
+    }
+    .about-info-top h2{
+        font-size: 26px;
+    }
+    .about-info-middle{
+        top: 53%;
+    }
+    .about-info-bottom{
+        top: 90%;
+    }
+    .about-right{
+        width: 240px;
+        height: 240px;
+    }
+    .section3{
+        height: 155vh;
+        width: auto;
+    }
+    .menu-contents{
+        height:145vh;
+        align-content: center;
+    }
+    .menu-items{
+        top: 40%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+    .item{
+        height: 210px;
+        width: 190px;
+    }
+    .img-div{
+        width: 190px;
+        height: 90px;
+    }
+    .image{
+        width: 90px;
+        height: 90px;
+    }
+    .item-detail, .quantity{
+        width: 190px;
+    }
+    .item-detail h3, .item-detail h4{
+        font-size: 16px;
+    }
+    .menu-option{
+        width: 170px;
+    }
+    .section4{
+        padding: 30px;
+    }
+}
+
+@media(max-width:890px){
+    .section1{
+        height: 40vh;
+    }
+    .intro{
+        width: 70%;
+        height: 40vh;
+    }
+    .section2{
+        height: 60vh;
+    }
+    .about-info{
+        height: 50vh;
+    }
+    .about-info-top{
+        top: 17%;
+    }
+    .about-info-top h2{
+        font-size: 24px;
+    }
+    .about-info-top p{
+        font-size: 14px;
+    }
+    .about-info-middle{
+        top: 70%;
+    } 
+    .about-left h2{
+        font-size: 18px;
+    }
+    .about-left li, .about-left strong{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .about-right{
+        width: 200px;
+        height: 200px;
+    }
+    .about-info-bottom{
+        top: 90%;
+    }
+    .about-info-bottom h3{
+        font-size: 18px;
+    }
+    .menu-items{
+        margin: 0px;
+    }
+    .section3{
+        height: 135vh
+    }
+    .menu-contents{
+        height:125vh;
+    }
+    .menu-items{
+        top: 45%;
+    }
+    .section4{
+        padding-bottom: 0px;
+    }
+    .contact-us-bottom, .contact-us-bottom a{
+        top: 90%;
+        font-size: 14px;
+        height: 10%;
+    }
+}
+
+@media(max-width:426px){
+    /* ------ Navigation bar ------ */
+    .navbar{
+        height:40px;
+        padding: 0px 5px;
+    }
+    .left-nav-items{
+        padding: 0px;
+    }
+    .left-nav-items {
+        padding: 3px;
+        align-content: center;
+    }
+    .left-nav-items h1{
+        font-size: 18px;
+    }
+    .right-nav-items a{
+        margin-right: 0px;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 5px;
+    }
+    .right-nav-items i{
+        font-size: 14px;
+    }
+    .section1{
+        height: 30vh;
+    }
+    .intro{
+        height: 30vh;
+    }
+    .heading h3{
+        font-size: 45px;
+    }
+    .heading p{
+        font-size: 9px;
+    }
+    /* ---------- About Section ---------- */
+    .section2{
+        height: 50vh;
+    }
+    .about-info{
+        height: 45vh;
+        border-width: 3px;
+    }
+    .about-info-top{
+        top: 12%;
+        height: 5vh;
+        padding: 0px 10px;
+    }
+    .about-info-top h2{
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .about-info-top p, strong{
+        font-size: 8px;
+    }
+    .about-info-middle{
+        top: 53%;
+        height: 20vh;
+        justify-content:space-between;
+        padding: 0px 16px;
+    }
+    .about-right{
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+    }
+    .about-left{
+        padding: 0px 0px 0px 10px;
+        width: 85%;
+    }
+    .about-left h2{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .about-left li, .about-left strong{
+        font-size: 8px;
+        line-height:inherit;
+    }
+    .about-info-bottom{
+        height: 3vh;
+        padding: 5px 10px;
+    }
+    .about-info-bottom h3{
+        font-size: 8px;
+    }
+    /* ---------- Menu ----------*/
+    .section3{
+        height: 120vh;
+    }
+    .menu-contents{
+        height: 115vh;
+        border-width: 3px;
+    }
+    .menu-heading{
+        height: 5vh;
+    }
+    .menu-heading h2{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .menu-items{
+        top: 45%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+    .item{
+        height: 110px;
+        width: 90px;
+    }
+    .img-div{
+        width: 90px;
+        height: 40px;
+    }
+    .image{
+        width: 40px;
+        height: 40px;
+    }
+    .item-detail, .quantity{
+        width: 90px;
+        margin-top: 5px;
+    }
+    .quantity i{
+        font-size: 8px;
+    }
+    .item-detail h3, .item-detail h4{
+        font-size: 8px;
+    }
+    .box-space{
+        width: 20px;
+        font-size: 8px;
+    }
+    .menu-option{
+        width: 80px;
+        margin: 5px;
+        justify-content: space-around;
+    }
+    .menu-btn1, .menu-btn2{
+        font-size: 6px;
+        height: 13px;
+        padding: 0px 3px;
+        min-width: 15px;
+    }
+    /* ------ Footer part, Contact us ------ */
+    .section4{
+        height: 40vh;
+        padding: 10px;
+    }
+    .contact-us-top{
+        height: 85%;
+    }
+    .img-icon{
+        width: 110px;
+        height: 110px;
+    }
+    .contact-us-top h3{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .contact-us-top p{
+        font-size: 8px;
+    }
+    .contact-details a, .socials-pt a, .contact-us-bottom a, .contact-us-bottom h4{
+        font-size: 8px;
+    }
+    .socials-pt i{
+        font-size: 10px;
+    }
+    .contact-us-bottom{
+        height: 10%;
+    }
+    /* ----- effects ----- */
+    .right-nav-items a:hover {
+        font-size: 13px;
+    } 
+    .right-nav-items i:hover {
+        font-size: 15px;
+    } 
+    .contact-us-top h3:hover{
+        font-size: 11px;
+    }
+    .socials-pt i:hover{
+        font-size: 11px;
+    }
+}
